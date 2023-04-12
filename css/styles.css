@@ -14,7 +14,7 @@
     --primary-text-color: #434455;
     --text-color: #2E2F42;
     --accent-color :#4D5AE5;
-    --primary-bgc:#FFFFFF;
+    --primary-white:#FFFFFF;
 
 
 }
@@ -56,11 +56,11 @@ body {
         background-color: var(--primary-text-color);
     }
     .main-section-moto{
-        color: var(--primary-bgc);
+        color: var(--primary-white);
     }
 .main-section-button{
     background-color: var(--accent-color);
-    color: var(--primary-bgc);
+    color: var(--primary-white);
 }
 /* features section  */
 .features-title{
@@ -90,11 +90,11 @@ body {
      
 }
 .footer-text {
-    color: var(--primary-bgc);
+    color: var(--primary-white);
 }
 
 .footer-logo{
-    color: var(--primary-bgc);
+    color: var(--primary-white);
 }
 .btn-color{
     background-color:#E7E9FC;
@@ -103,7 +103,7 @@ body {
 }
 .btn-color:hover{
 background-color: #404BBF;
-color: var(--primary-bgc);
+color: var(--primary-white);
 }
 .service-title{
     color: var(--primary-text-color);
