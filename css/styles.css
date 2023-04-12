@@ -1,0 +1,113 @@
+
+/* акцентный цвет #4D5AE5; */
+/* основой цвет  #434455 */
+ /* цвет заголовка #2E2F42; */
+ /* цвет бекграунда команды #F4F4FD */
+ /* цвет текста героя #FFFFFF; */
+
+
+
+
+
+
+:root{
+    --primary-text-color: #434455;
+    --text-color: #2E2F42;
+    --accent-color :#4D5AE5;
+    --primary-bgc:#FFFFFF;
+
+
+}
+
+body {
+    color:var(--primary-text-color);
+    background-color:var(--primary-bgc);
+}
+.list {
+    list-style: none;
+}
+
+.logo{
+  color:var(--primary-text-color) ;
+}
+.part-logo{
+ color:var(--accent-color);   
+}
+.navi .link {
+    color:var(--primary-text-color) ;
+}
+.navi .link:hover,
+.navi .link:focus {
+    color:var(--accent-color);
+
+}
+.navi .link.current{
+    color: var(--accent-color);
+}
+
+.contacts{
+    color:var(--text-color) ;
+}
+.contacts:hover{
+    color: var(--accent-color);
+}
+/* main-section */
+    .main-section{
+        background-color: var(--primary-text-color);
+    }
+    .main-section-moto{
+        color: var(--primary-bgc);
+    }
+.main-section-button{
+    background-color: var(--accent-color);
+    color: var(--primary-bgc);
+}
+/* features section  */
+.features-title{
+    color :var(--primary-text-color);  
+
+}
+.features-descr {
+    color: var(--text-color);
+}
+/* doing section */
+.section-title{
+    color:var(--text-color) ;
+}
+/* team-section */
+.team-section{
+    background-color:#F4F4FD ;
+
+}
+.team-name{
+    color:var(--primary-text-color) ;
+}
+.duty{
+    color:var(--text-color) ;
+}
+.footer{
+    background-color:var(--primary-text-color);
+     
+}
+.footer-text {
+    color: var(--primary-bgc);
+}
+
+.footer-logo{
+    color: var(--primary-bgc);
+}
+.btn-color{
+    background-color:#E7E9FC;
+
+    color: var(--accent-color);
+}
+.btn-color:hover{
+background-color: #404BBF;
+color: var(--primary-bgc);
+}
+.service-title{
+    color: var(--primary-text-color);
+}
+.service-descr{
+    color:var(--text-color) ;
+}
