@@ -31,7 +31,7 @@ body {
 }
 
 .logo{
-  color:var(--primary-text-color) ;
+  color:var(--primary-text-color); 
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -43,8 +43,7 @@ body {
   color:var(--accent-color);   
 }
 .navi .link {
-  color:var(--primary-text-color) ;
-  font-family: 'Roboto';
+  color:var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height:1.5;
@@ -87,10 +86,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 /* features section  */
 .features-title{
-    color :var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -116,7 +115,6 @@ body {
 
 }
 .team-name{
-    color:var(--primary-text-color) ;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -153,18 +151,20 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
+    cursor: pointer;
 }
 .btn-filtr:hover{
 background-color: #404BBF;
 color: var(--primary-white);
 }
-.service-title{
-    color: var(--primary-text-color);
+.service-title {
+    color:var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-decoration: none;
 }
 .service-descr{
     color:var(--text-color) ;
+    text-decoration: none;
 }
