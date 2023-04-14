@@ -22,6 +22,9 @@
 body {
     color:var(--primary-text-color);
     background-color:var(--primary-bgc);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    
 }
 .list {
     list-style: none;
@@ -29,12 +32,24 @@ body {
 
 .logo{
   color:var(--primary-text-color) ;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .part-logo{
- color:var(--accent-color);   
+  color:var(--accent-color);   
 }
 .navi .link {
-    color:var(--primary-text-color) ;
+  color:var(--primary-text-color) ;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.5;
+  text-decoration: none;
+
 }
 .navi .link:hover,
 .navi .link:focus {
@@ -47,6 +62,9 @@ body {
 
 .contacts{
     color:var(--text-color) ;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
 }
 .contacts:hover{
     color: var(--accent-color);
@@ -57,22 +75,40 @@ body {
     }
     .main-section-moto{
         color: var(--primary-white);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
     }
 .main-section-button{
     background-color: var(--accent-color);
     color: var(--primary-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 /* features section  */
 .features-title{
-    color :var(--primary-text-color);  
-
+    color :var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .features-descr {
     color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+
 }
-/* doing section */
+/* doing section  */
 .section-title{
     color:var(--text-color) ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 /* team-section */
 .team-section{
@@ -81,9 +117,16 @@ body {
 }
 .team-name{
     color:var(--primary-text-color) ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
 }
 .duty{
     color:var(--text-color) ;
+    font-size: 16px;
+    line-height: 1.5;
+
 }
 .footer{
     background-color:var(--primary-text-color);
@@ -91,22 +134,36 @@ body {
 }
 .footer-text {
     color: var(--primary-white);
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .footer-logo{
     color: var(--primary-white);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
-.btn-color{
+.btn-filtr{
     background-color:#E7E9FC;
-
     color: var(--accent-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
 }
-.btn-color:hover{
+.btn-filtr:hover{
 background-color: #404BBF;
 color: var(--primary-white);
 }
 .service-title{
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .service-descr{
     color:var(--text-color) ;
