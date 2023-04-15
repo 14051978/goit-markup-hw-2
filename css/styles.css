@@ -146,6 +146,9 @@ address {
 
 
 }
+.team-card{
+    background-color: var(--primary-white);
+}
      
 .team-name{
     font-weight: 500;
@@ -196,13 +199,18 @@ background-color: #404BBF;
 color: var(--primary-white);
 }
 .service-title {
-    color:var(--primary-text-color);
+    color:var(--text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-decoration: none;
+    letter-spacing: 0.02em;
+
 }
 .service-descr{
-    color:var(--text-color) ;
+    color:var(--primary-text-color) ;
+    font-size: 16px;
+    line-height: 1.5;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
