@@ -28,6 +28,7 @@ body {
 }
 .list {
     list-style: none;
+    text-decoration: none;
 }
 
 .logo{
@@ -141,6 +142,15 @@ address {
 
 
 /* team-section */
+.section-title{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
 .team-section{
     background-color:#F4F4FD ;
 
@@ -182,7 +192,9 @@ address {
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.service-section{
+    background-color: #fff;
+}
 .btn-filtr{
     background-color: #F4F4FD;;
     color: var(--accent-color);
@@ -198,6 +210,7 @@ address {
 background-color: #404BBF;
 color: var(--primary-white);
 }
+
 .service-title {
     color:var(--text-color);
     font-weight: 500;
