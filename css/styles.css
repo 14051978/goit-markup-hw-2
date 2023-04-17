@@ -28,9 +28,11 @@ body {
 }
 .list {
     list-style: none;
-    text-decoration: none;
+    
 }
-
+.link{
+   text-decoration: none;
+}
 .logo{
   color:var(--accent-color); 
   font-family: Raleway, sans-serif;
